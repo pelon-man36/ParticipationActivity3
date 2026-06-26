@@ -1,10 +1,20 @@
 from random import randint
 
 class Die():
+    """Simulates rolling a die
+    
+        Argument:
+        side (default is 6)
+    """
     def __init__(self, side=6):
+        """Initialize die sides"""
         self.side = side
 
     def roll_die(self):
+        """
+        Rolls a die ten times, puts the values into a list,
+        then prints out the list.
+        """
         list_of_ten = []
         for i in range(0, 10):
             output = randint(1, self.side)
