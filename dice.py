@@ -12,8 +12,9 @@ class Die():
 
     def roll_die(self):
         """
-        Rolls a die ten times, puts the values into a list,
-        then prints out the list.
+        Rolls a die ten times.
+
+        Returns: A list containing 10 random values.
         """
         list_of_ten = []
         for i in range(0, 10):
