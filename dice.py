@@ -11,7 +11,12 @@ class Die():
             list_of_ten.append(output)
         print(list_of_ten)
 
-my_die = Die()
-my_die.roll_die()
+default_six_sided = Die()
+default_six_sided.roll_die()
 
+ten_sided = Die(10)
+ten_sided.roll_die()
+
+twenty_sided = Die(20)
+twenty_sided.roll_die()
 
